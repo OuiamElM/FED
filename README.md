@@ -16,13 +16,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-  Ouiam El Malki
+  Sanne 't Hooft (vervangen door jouw naam)
 
   #### Je startniveau:
-  Startniveau is blauw
+  hier je startniveau (kies uit zwart, rood óf blauw)
 
   #### Je focus:
-  Responsive
+  hier je focus (kies uit responsive óf surface plane)
  
 </details>
 
@@ -37,15 +37,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Je opdracht:
   link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
-  https://www.benjerry.nl/
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  Homepage 
-  <img src="./readme-images/homepage.jpg" width="375px" alt="omschrijving van de pagina">
+  hier de naam van de pagina  
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  Flavourpage  
-  <img src="./readme-images/Flavourpage.jpg" width="375px" alt="omschrijving van de pagina">
+  hier de naam van de pagina  
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
