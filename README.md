@@ -118,20 +118,22 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+ Ouiam:  
+  CSS verder verwerken.
+  Tekst op afbeeldingen plaatsen.
+  Font over de hele pagina.
+ Isa:
+ Omar:
+ Cherlyn:
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
+   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Structuur van html controleren. Goed
+  - Structuur van CSS controleren. Goed
+  - h2 position; absolute het beste niet gebruiken zodat afbeeldingen niet in elkaar schuiven. Gewijzigd en goed
+  - In een section niet nog een section gebruiken maar een articel, is beter.
+
 
 </details>
 
@@ -151,21 +153,18 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  Ouiam:
+  Isa:
+  Cherlyn:
+  Omar:
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
-
+  - 
+  -
+   
 </details>
 
 
