@@ -122,6 +122,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   CSS verder verwerken.
   Tekst op afbeeldingen plaatsen.
   Font over de hele pagina.
+  
  Isa:
  Omar:
  Cherlyn:
@@ -164,7 +165,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   - 
   -
-   
+
 </details>
 
 
