@@ -7,6 +7,7 @@
   padding: 0;  
 }
 
+
 button, summary {
 	cursor: pointer;
 }
@@ -21,6 +22,8 @@ button, summary {
 	--a-text-color: #0475a1;
 	--a-font:Arial;
 	--hr-color:#fdb913;
+	--border-menu:#6fbbe9;
+	--hr-menu:#08303c;
 	--blog-hr:#838383;
 
 	--header-background: #003e55;
@@ -52,20 +55,119 @@ button, summary {
 header {
 	/* display: flex; */
 	background-color: var(--header-background);
+	padding-bottom: 20px;
+}
+
+header a img{
+	width: 40%;
+	margin-top: 12px;
+	margin-left: 20px;
+	margin-bottom: 2px;
+}
+
+header a:nth-of-type(1){	
+	
+}
+
+header a:nth-of-type(2){
+	text-decoration: none;
+	color: var(--color-background);
+	font-family: var(--header-links-font);
+	font-weight: bolder;
+	display: flex;
+	justify-content: right;
+	margin-right: 5em;
+	margin-left: 18em;
+	text-align: center;
+	margin-top: -3em;
+	border-right: 3px solid var(--color-background);
+	line-height: 1em;
+	letter-spacing: 1px;
+	font-size: smaller;
+	text-transform: uppercase;
+	padding-right: 2px;
+}
+
+header > button{
+	z-index: 5;
+	color: var(--color-background);
+	background-color: var(--header-background);
+	border: none;
+	display: block;
+	margin-left: auto;
+	margin-right: 2em;
+	margin-top: -30px;
+}
+
+header > button > img{
+width: 125%;	
 }
 
 header nav ul {
 	display: flex;
+	background-color: var(--header-background);
 	list-style: none;
 	flex-direction: column;
+	transform: translateY(-100%);
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: var(--header-background);
+	z-index: 2;
+	padding-left: 2em;
+	padding-bottom: 4em;
+	z-index: 2;
 }
 
+header nav ul.menuOpen{
+	transform: translateY(4em);
+}
+header nav ul li{
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
 header nav ul li a {
 	color: var(--header-links-color);
 	font-family: var(--header-links-font);
 	text-decoration: none;
+	font-size: larger;
+	text-transform: uppercase;
 } 
 
+header ul li a{
+	border-bottom: 2px dashed var(--border-menu);
+	margin-bottom: 2px;
+}
+header hr{
+	border: 1px solid var(--hr-menu);
+	margin-top: 1px;
+	margin-right: 2em;		
+}
+
+header nav input{
+	width: 65%;
+	float: left;
+	padding: 12px;
+	border: 5px solid var(--blog-hr);
+	border-radius: 6px;
+	margin-right: 5px;
+	color: var(--color-background);
+	margin-top: 1em;
+	
+	
+}
+
+header nav button{
+	width: 20%;
+	float: right;
+	padding: 12px;
+	border: 5px solid var(--color-background);
+	color: var(--color-background);
+	margin-top: -50px;
+	margin-left: 18em;
+
+}
 /****************/
 /* MAIN */
 /****************/
@@ -97,6 +199,7 @@ main section:first-of-type h2{
 	margin-bottom: -1em;
 	font-size:40px;
 	line-height: 100%;	
+	z-index: 1;
 }
 
 main section:nth-of-type(1) a{
@@ -170,7 +273,7 @@ main section:nth-of-type(3){
 
 main section:nth-of-type(3) img{
 	background-image: url(../images/banner/bd2.png);
-	width: 386px;
+	width: 100%;
 	display: flex;
 	padding-left: 1em;
 	
