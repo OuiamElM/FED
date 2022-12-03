@@ -22,7 +22,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Startniveau is blauw
 
   #### Je focus:
-  Responsive
+  surface laag
  
 </details>
 
@@ -44,7 +44,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="./readme-images/homepage.jpeg" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  Flavourpage  
+  Smaken page  
   <img src="./readme-images/flavourpage.jpeg" width="375px" alt="omschrijving van de pagina">
  
 </details>
@@ -148,7 +148,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+ Html en css van homepage volledig af. Inclusief hamburger menu. Moet nog animaties in verwerken.
+ Smaken pagina ga ik vandaag proberen te maken
 
 
   ### Agenda voor meeting

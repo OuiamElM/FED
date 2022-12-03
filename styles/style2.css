@@ -27,13 +27,15 @@
       --hr-color:#fdb913;
       --blog-hr:#838383;
   
+      --border-input:#d0c5b6;
+
       --header-background: #003e55;
       --header-links-color: #ffffff;
       --header-links-font: "Chunk ReThunk", Helvetica, Arial;
   
       --main-font-chunk: "Chunk ReThunk", Helvetica, Arial;
       --main-text-color: #000;
-      --main-background-color: #d7e9fa;
+      --main-background-color:  #f0f1ee;
       
       
       --footer-font-chunk:"Chunk ReThunk", Helvetica, Arial;
@@ -60,21 +62,21 @@
   }
   
   header a img{
-      /*display*/
+      /*Display*/
       width: 40%;
       margin-top: 12px;
-      margin-left: 20px;
       margin-bottom: 2px;
+      margin-left: 20px;
   }
   
   header a:nth-of-type(2){
       /*Display*/
       display: flex;
-      justify-content: right;
       margin-top: -3em;
       margin-right: 5em;
       margin-left: 18em;
       padding-right: 2px;
+      justify-content: right;
   
       /*Color*/
       color: var(--color-background);
@@ -109,7 +111,7 @@
       width: 125%;	
   }
   
-  header nav ul{
+  header nav section{
       /*Display*/
       display: flex;
       flex-direction: column;
@@ -121,13 +123,13 @@
       transform: translateY(-100%);
       padding-bottom: 4em;
       padding-left: 2em;
-  
+      
       /*Color*/
       background-color: var(--header-background);
       list-style: none;
   }
   
-  header nav ul.menuOpen{
+  header nav section.menuOpen{
       /*Display*/
       transform: translateY(4em);
   }
@@ -135,7 +137,11 @@
   header nav ul li{
       /*Display*/
       margin-top: 10px;
-      margin-bottom: 10px;
+      margin-right: 2em;
+      margin-bottom: 12px;
+      border-bottom: 3px solid var(--hr-menu);
+      padding-bottom: 10px;
+      list-style: none;
   }
   
   header nav ul li a{
@@ -154,23 +160,16 @@
       margin-bottom: 2px;
       border-bottom: 2px dashed var(--border-menu);
   }
-  
-  header hr{
-      /*Display*/
-      margin-top: 1px;
-      margin-right: 2em;		
-      border: 1px solid var(--hr-menu);	
-  }
-  
+    
   header nav input{
       /*Display*/
       width: 65%;
       padding: 12px;
       margin-top: 1em;
       margin-right: 5px;
-      border: 5px solid var(--blog-hr);
+      border: 5px solid var(--border-input);
       border-radius: 6px;
-      
+  
       /*Color*/
       color: var(--color-background);
   }
@@ -202,307 +201,151 @@
   /****************************************/
   main section:nth-of-type(1){
       /*Display*/
-      display:grid;
-      position:relative;
+      display:block;
+      width: 100%;
+      margin-top: 20px;
+      padding-bottom: 4em;
       place-items:center;
-  
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px ;
+    
       /*Text*/
-      text-align: center;		
+      text-align: center;
+
+      /*Color*/
+      background-color: var(--main-background-color);
+
   }
   
   main section:nth-of-type(1) img{
       /*Display*/
       width: 100%;
+      margin-top: 2em;
+      padding-right: 5px;
+      padding-left: 5px;
   }
   
   main section:first-of-type h2{
       /*Display*/
-      width: 75%;
-      position:absolute;
-      margin-top: 6em;
+      width: 100%;
+      margin-top: 30px;
       margin-bottom: -1em;
       padding-bottom: 0%;
       z-index: 1;
       
       /*Text*/
-      font-size:40px;
+      font-size: 20px;
       line-height: 100%;	
   
       /*Color*/
-      color: white;
+      color: var(--footer-background);
   }
   
-  main section:nth-of-type(1) a{
+  main section:nth-of-type(1) p{
       /*Display*/
-      width: 90%;
-      position: absolute;
-      padding: 17px 32px;
-      bottom: 1rem;
+      padding-top: 2em;
+      padding-right: 2px;
+      padding-left: 2px;
+      padding-bottom: 10px;
   
       /*Text*/
-      font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+      line-height: 23px;
+  }
+  
+  main section:nth-of-type(1) input{
+    /*Display*/
+    width: 100%;
+	margin-top: 8px;
+	margin-right: 5px;
+    padding: 12px;
+	border: 5px solid var(--border-input);
+	border-radius: 6px;
+
+	/*Color*/
+	color: var(--color-background);
+}
+  
+  /****************************/
+  /* Section 4 - Smaken lijst */
+  /****************************/
+  main section:nth-of-type(2){
+      /*Display*/
+      margin-top: -3em;
+      padding-top: 23px;
+      /*Text*/
+      text-align: center;
+
+      /*Color*/
+      background-color:var(--main-background-color);
+  }
+  
+  main section:nth-of-type(2) h2{
+    /*Display*/
+    width: 100%;
+    padding-bottom: 0%;
+    z-index: 1;
+    text-align: left;
+    
+    /*Text*/
+    font-size: 20px;
+    line-height: 100%;	
+
+    /*Color*/
+    color: var(--footer-background);
+  }
+  
+  main section:nth-of-type(2) ul{
+      /*Display*/
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+  }
+
+  main section:nth-of-type(2) li{
+      /*Display*/
+      padding-top: 1em;
+      padding-bottom: 2em;
+      list-style: none;
+  }
+
+  
+  main section:nth-of-type(2) img{
+      /*Display*/
+      width: 75%;
+      align-items: center;
+  }
+  
+
+  main section:nth-of-type(2) a{
+      /*Display*/
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      margin-top: -5px;
+      
+      /*Text*/
+      font-family:var(--a-font);
       font-weight: bold;
       text-align: center;
       text-decoration: none;
   
       /*Color*/
-      color: var(--header-background);
-      background-color:var(--color-background); 
-      box-shadow: 0px 2px 1px 0px rgba(117, 117, 117, 0.75);
-  }
-  
-  /**********************/
-  /* Section 2 - Iconen */
-  /**********************/
-  main section:nth-of-type(2){
-      /*Display*/
-      display: flex;
-      flex-direction: column;
-      padding: none;
-      height: 580px;
-  
-      /*Text*/
-      text-align: left;
-  
-      /*Achtergrond foto*/
-      background-image: url(../images/banner/bd1.png);
-  }
-  
-  main section:nth-of-type(2) img{
-      /*Display*/
-      width: 28%;
-      float: left;
-      padding-top: 2em;
-      padding-right: 1em;
-      padding-bottom: 4em;
-      padding-left: 13px;
-  }
-  
-  main section:nth-of-type(2) h2{
-      /*Display*/
-      padding-top: 27px;
-  
-      /*Text*/
-      text-align: left;
-      font-size: 20px;	
-  }
-  
-  main section:nth-of-type(2) p{
-      /*Display*/
-      padding-top: 7px;
-      padding-right: 1em;
-      padding-bottom: 10px;
-  
-      /*Text*/
-      text-align: left;
-      line-height: 1,4;
-  }
-  
-  main section:nth-of-type(2) a{
-      /*Display*/
-      display: block;
-      padding-left: 5em;
-  
-      /*Text*/
-      font-family: Arial, Helvetica, sans-serif;
-      font-weight:600;
-      font-size: 18px;
-      text-align: left;
-      text-decoration: none;
-  
-      /*Color*/
-      color: var(--a-text-color);
-  }
-  
-  /******************************************/
-  /* Section 3 - Blauwe banner en ijs beker */
-  /***************************************8**/
-  main section:nth-of-type(3) img{
-      /*Display*/
-      width: 100%;
-      display: flex;
-      padding-left: 1em;
-  
-      /*Achtergrond foto*/
-      background-image: url(../images/banner/bd2.png);
-  }
-  
-  /****************************/
-  /* Section 4 - Smaken lijst */
-  /****************************/
-  main section:nth-of-type(4){
-      /*Display*/
-      margin-top: -2em;
-      padding-top: 1em;
-      padding-bottom: 63px;
-  
-      /*Text*/
-      text-align: center;
-      background-color:var(--main-background-color);
-  }
-  
-  main section hr:nth-of-type(1){
-      /*Display*/
-      width: 105px;
-      display: flex;
-      margin: auto;
-      margin-top: 2em;
-      border: 4px solid var(--hr-color);
-  }
-  
-  main section:nth-of-type(4) h2{
-      /*Display*/
-      margin-top: 1em;
-  
-      /*Text*/
-      font-size: 28px;
-      line-height: 35px;
-  }
-  
-  main section:nth-of-type(4) p{
-      /*Display*/
-      padding-right: 1em;
-      padding-bottom: 2em;
-      padding-left: 1em;
-  
-      /*Text*/
-      font-weight:500;
-      font-size: medium;
-      line-height: 30px;
-  }
-  
-  main section:nth-of-type(4) li{
-      /*Display*/
-      display: flex;
-      flex-direction: row;
-      margin-right: 1em;
-      margin-bottom: 10px;
-      margin-left: 1em;
-      padding-top: 2em;
-      padding-bottom: 2em;
-      border-radius: 10px;
-      border: 1px solid var(--a-text-color);
-      box-shadow: 0 1px 4px rgb(0 0 0 / 30%);
-  
-      /*Color*/
-      background-color: var(--color-background);
-  }
-  
-  main section:nth-of-type(4) img{
-      /*Display*/
-      width: 35%;
-      align-items: center;
-  }
-  
-  
-  main section:nth-of-type(4) a{
-      /*Display*/
-      display: flex;
-      align-items: center;
-  
-      /*Text*/
-      font-family:var(--a-font);
-      font-size: 20px;
-      font-weight:bolder;
-      text-align: center;
-      text-decoration: none;
-  
-      /*Color*/
-      color: var(--a-text-color);
-  }
-  
-  /*********************************/
-  /* Section 5 - Recent Highlights */
-  /*********************************/
-  main section:nth-of-type(5){
-      /*Display*/
-      display: flex;
-      flex-direction: column;
-      padding-bottom: 2em;	
-      
-      /*Text*/
-      text-align: center;	
-      list-style: none;
-  
-      /*Achtergrond foto*/
-      background-image: url(../images/banner/bd3.png);
-      background-size: cover;
-  }
-  
-  main section:nth-of-type(5) hr{
-      /*Display*/
-      width: 105px;
-      display: flex;
-      margin: auto;
-      margin-top: 3em;	
-      border: 4px solid var(--hr-color);		
-  }
-  
-  main section:nth-of-type(5) h2{
-      /*Display*/
-      margin-bottom: 1em;
-      padding-top: 1em;
-  
-      /*Text*/
-      font-size: 28px;
-      line-height: 35px;
-  }
-  
-  main section:nth-of-type(5) li{
-      /*Display*/
-      display: flex;
-      flex-direction: column;
-      margin-right: 1em;
-      margin-bottom: 25px;
-      margin-left: 1em;	
-      padding-bottom: 1em;
-  
-      /*Color*/
-      background-color: var(--color-background);	
-  }
-  
-  main section:nth-of-type(5) img{
-      /*Display*/
-      display: block;
-      width: 100%;
-  }
-  
-  main section:nth-of-type(5) p{
-      /*Display*/
-      width: 78px;
-      display: flex;
-      margin: auto;
-      margin-top: 20px;
-      margin-bottom: 1em;	
-      border: 4px solid var(--hr-color);
-  }
-  
-  main section:nth-of-type(5) a{
-      /*Display*/
-      padding-right: 2em;
-      padding-bottom: 1em;
-      padding-left: 2em;
-      align-items: center;
-      
-      /*Text*/
-      font-family:var(--a-font);
-      font-size: large;
-      font-weight:bolder;
-      text-decoration: none;
-  
-      /*Color*/
-      color: var(--a-text-color);
+      color: var(--color-text);
   }
   
   /*************************/
   /* Section 6 - Blog post */
   /*************************/
-  main section:nth-of-type(6){
+  main section:nth-of-type(3){
       /*Display*/
       display: flex;
       flex-direction: column;
-      padding-top: 3em;
+      position:relative;
       padding: none;
+      border-bottom-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+      overflow: visible;
+      box-shadow: 0 2px 2px rgb(0 0 0 / 30%);
       
       /*Text*/
       text-align: left;
@@ -511,62 +354,45 @@
       background-image: url(../images/banner/bd1.png);	
   }
   
-  main section:nth-of-type(6) hr:nth-of-type(1){
-      /*Display*/
-      width: 83px;
-      display: flex;
-      margin: auto;
-      margin-bottom: 1em;	
-      border: 4px solid var(--hr-color);
+  main section:nth-of-type(3) hr{
+       /*Display*/
+       padding-bottom: 12px;
+       border-top: 1px dashed var(--border-menu);
+       border-right: none;
+       border-bottom: none;
+       border-left: none;
   }
-  
-  main section:nth-of-type(6) hr:nth-of-type(2){
-      /*Display*/
-      padding-bottom: 2em;
-      border-top: 2px dashed var(--blog-hr);
-  }
-  
-  main section:nth-of-type(6) hr:nth-of-type(3){
-      /*Display*/
-      padding-bottom: 2em;
-      border-top: 2px dashed var(--blog-hr);
-  }
-  
-  main section:nth-of-type(6) hr:nth-of-type(4){
-      /*Display*/
-      padding-bottom: 2em;
-      border-top: 2px dashed var(--blog-hr);
-  }
-  
-  main section:nth-of-type(6) h2{	
+ 
+  main section:nth-of-type(3) h2{	
       /*Display*/
       margin-bottom: 1em;
       padding-top: 1em;
   
       /*Text*/
       text-align: center;
-      font-size: 28px;
+      font-size: 20px;
       line-height: 35px;
   }
   
-  main section:nth-of-type(6) img{
+  main section:nth-of-type(3) img{
       /*Display*/
-      width: 40%;
+      width: 20%;
       float: left;
-      margin-top: -20px;
-      padding-right: 1em;
-      padding-bottom: 3em;
-      padding-left: 13px;
+      margin-right: 10px;    
+      margin-bottom: 12px;
+      margin-left: 10px;
+      border: 4px solid var(--color-background);
+      box-shadow: 0 2px 2px rgb(0 0 0 / 30%);
   }
-  
-  main section:nth-of-type(6) p{
+
+  main section:nth-of-type(3) p{
       /*Display*/
       display: block;	
       padding-left: 148px;
       
       /*Text*/
       font-family: var(--a-font);
-      font-weight:600;
+      font-weight: 600;
       font-size: 18px;
       text-align: left;
       text-decoration: none;
@@ -575,22 +401,21 @@
       color: var(--a-text-color);
   }
   
-  main section:nth-of-type(6) article a{
+  main section:nth-of-type(3) article a{
       /*Display*/
       display: block;	
-      padding-top: 10px;
-      padding-right: 2em;
+      padding-top: 2px;
       padding-left: 5em;
       
       /*Text*/
       font-family: Arial, Helvetica, sans-serif;
       font-weight:600;
-      font-size: 18px;
+      font-size: 17px;
       text-align: left;
       text-decoration: none;
   
       /*Color*/
-      color: var(--main-text-color);
+      color: var(--a-text-color);
   }
   
   /*************************/
@@ -603,8 +428,10 @@
   
       /*Color*/
       color: var(--header-links-color);
+    
   }
   
+ 
   main h2{
       /*Text*/
       font-family: var(--header-links-font);
@@ -622,7 +449,9 @@
       color: #000;
   }
   
-  
+  body{
+    background-color: var(--border-menu);
+  }
   
   /****************/
   /* Footer */
@@ -635,60 +464,33 @@
       /*Display*/
       width: 100%;
       height: 600px;
-      padding-top: -8em;
+      overflow: hidden;
+      margin-top: -10px;
+      padding-right: 1em;
       padding-bottom: 6em;
-      
+    
       /*Text*/
       font-family: var(--header-links-font);
   
       /*Achtergrond foto*/
-      background-image: url(../images/banner/gras.png);
+      background-image: url(../images/banner/gras2.png);
       background-size:cover;
   }
-  
-  footer section:nth-of-type(1) a:nth-of-type(1){
-      /*Display*/
-      display: flex;
-      width: 85%;
-      padding: 22px 32px;
-      margin: auto;
-      justify-content: center;
-      box-shadow: 0 2px 4px rgb(0 0 0 / 30%);
-      background-color: var(--a-text-color);
-      
-      /*Text*/
-      font-family: var(--a-font);
-      font-weight: bold;
-      text-decoration: none;
-      text-transform: uppercase;
-      text-align: center;
-      
-      /*Color*/
-      color: var(--color-background);
-  }
-  
-  footer section:nth-of-type(1) img{
-      /*Display*/
-      width: 15%;
-      display:inline-block;	
-      margin-top: 2em;
-      margin-left:3em;
-  }
-  
+   
   footer section:nth-of-type(1) h2{
       /*Display*/
-      margin-top: 1em;
-      margin-right: 12px;
-      margin-left: 12px;
-      padding-top: 5em;
-      padding-right: 1em;
-      padding-bottom: 3px;
-      padding-left: 1em;
+      margin-top: 2em;
+      margin-right: 2em;
+	  margin-left: 3em;
+	  padding-top: 6em;
+	  padding-right: 1em;
+	  padding-bottom: 3px;
+	  padding-left: 1em;
   
       /*Text*/
       font-size:x-large;
       text-align: center;
-      line-height: 1em;
+      line-height: 35px;
   
       /*Color*/
       color: var(--color-background);
@@ -697,15 +499,15 @@
   footer section:nth-of-type(1) p{
       /*Display*/
       display: flex;
-      margin-right: 2em;
-      margin-left: 2em;
-      padding-right: 1em;
-      padding-left: 1em;
+	  margin-right: 2em;
+	  margin-left: 2em;
+	  padding-right: 1em;
+	  padding-left: 35px;
   
       /*Text*/
       font-family: var(--a-font);
       text-align: center;
-      line-height: 28px;	
+      line-height: 20px;	
   
       /*Color*/
       color: var(--color-background);
@@ -714,21 +516,21 @@
   footer section:nth-of-type(1) button{
       /*Display*/
       width: 40%;
-      display: flex;
-      margin: auto;
-      margin-top: 1em;
-      padding: 15px 15px;
-      justify-content: center;
-      border: none;
-      box-shadow: 0 2px 4px rgb(0 0 0 / 30%);
-  
-      /*Text*/
-      font-weight: 500;
-      font-size: large;
-  
-      /*Color*/
-      color: var(--a-text-color);
-      background-color: var(--color-background);
+	  display: flex;
+	  margin-top: 1em;
+	  margin-left: 118px;
+	  padding: 10px 9px;
+	  justify-content: center;
+	  border: none;
+	  box-shadow: 0 2px 4px rgb(0 0 0 / 30%);
+
+	  /*Text*/
+	  font-weight: 500;
+	  font-size: large;
+
+	  /*Color*/
+	  color: var(--a-text-color);
+	  background-color: var(--color-background);
   }
   
   footer section:nth-of-type(1) input{
@@ -746,11 +548,12 @@
       color: var(--color-background);
   }
   
-  footer section a img{
+  footer section:nth-of-type(1) a img{
       /*Display*/
-      width: 20%;
-      display: inline block;
-      margin-top: -4em;
+      width: 30%;
+      display:inline-flex;
+      padding-top: 2em;
+      padding-left: 3em;
   }
   
   /********************/
@@ -803,15 +606,12 @@
   media queries: https://css-tricks.com/a-complete-guide-to-css-media-queries/
   hr: https://www.w3schools.com/howto/howto_css_style_hr.asp
   button: https://www.w3schools.com/css/css3_buttons.asp
+  grid voor smaken lijst: https://codepen.io/shooft/pen/gOKzzBM
+  image styling: https://www.w3schools.com/css/css3_images.asp
   
   to do::
-  hamburger menu
-  images op images (background img ..
-  img verkleinen en naast tekst zetten 
-  box maken voor elke soort smaak
-  background images bij elke section
-  media iconen verkleinen
-  /
+  Animatie 
+  Transitions
   
   
   

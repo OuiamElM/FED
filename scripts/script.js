@@ -2,7 +2,7 @@
 console.log("hi");
 
 var menuButton = document.querySelector("header > button");
-var menu = document.querySelector("header nav ul");
+var menu = document.querySelector("header nav section");
 var buttonImage = document.querySelector("header > button > img" );
 
 function menuToggelen(){
