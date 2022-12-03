@@ -36,6 +36,7 @@
       --main-font-chunk: "Chunk ReThunk", Helvetica, Arial;
       --main-text-color: #000;
       --main-background-color:  #f0f1ee;
+      --main-background-color-2: #d4e4ef;
       
       
       --footer-font-chunk:"Chunk ReThunk", Helvetica, Arial;
@@ -53,9 +54,9 @@
   }
   
   /****************/
-  /* HEADER */
+  /* HEADER       */
   /****************/
-  header {
+  header{
       /* display: flex; */
       background-color: var(--header-background);
       padding-bottom: 20px;
@@ -171,7 +172,7 @@
       border-radius: 6px;
   
       /*Color*/
-      color: var(--color-background);
+      color: var(--color-text);
   }
   
   header nav button{
@@ -180,7 +181,7 @@
       margin-top: -50px;
       margin-left: 17em;
       padding: 10px;
-      border: 5px solid var(--color-background);
+      border: solid;
   
       /*Color*/
       color: var(--color-background);
@@ -193,7 +194,7 @@
   
   
   /****************/
-  /* MAIN */
+  /* MAIN         */
   /****************/
   
   /****************************************/
@@ -208,13 +209,13 @@
       place-items:center;
       border-top-left-radius: 10px;
       border-top-right-radius: 10px ;
+      box-shadow: inset 0px 2px 3px -3px rgba(50, 50, 50, 0.75);
     
       /*Text*/
       text-align: center;
 
       /*Color*/
       background-color: var(--main-background-color);
-
   }
   
   main section:nth-of-type(1) img{
@@ -263,11 +264,11 @@
 	border-radius: 6px;
 
 	/*Color*/
-	color: var(--color-background);
+	color: var(--color-text);
 }
   
   /****************************/
-  /* Section 4 - Smaken lijst */
+  /* Section 2 - Smaken lijst */
   /****************************/
   main section:nth-of-type(2){
       /*Display*/
@@ -334,14 +335,13 @@
   }
   
   /*************************/
-  /* Section 6 - Blog post */
+  /* Section 3 - Blog post */
   /*************************/
   main section:nth-of-type(3){
       /*Display*/
       display: flex;
       flex-direction: column;
       position:relative;
-      padding: none;
       border-bottom-right-radius: 10px;
       border-bottom-left-radius: 10px;
       overflow: visible;
@@ -418,6 +418,19 @@
       color: var(--a-text-color);
   }
   
+  /****************************************/
+  /* Sestion 4 -  Iframe                  */
+  /****************************************/
+  main section:nth-of-type(4){
+      background-color:var(--main-background-color-2);
+  }
+
+  iframe{
+      width: 100%;
+      position: relative;
+      padding-top: 3em;
+}
+
   /*************************/
   /* Algemeen voor de Main */
   /*************************/
@@ -428,7 +441,6 @@
   
       /*Color*/
       color: var(--header-links-color);
-    
   }
   
  
@@ -450,7 +462,7 @@
   }
   
   body{
-    background-color: var(--border-menu);
+    background-color: var(--main-background-color-2);
   }
   
   /****************/
@@ -545,7 +557,7 @@
       border-radius: 0;
   
       /*Color*/
-      color: var(--color-background);
+      color: var(--color-text);
   }
   
   footer section:nth-of-type(1) a img{
@@ -557,7 +569,7 @@
   }
   
   /********************/
-  /* Section 3 Footer */
+  /* Section 2 Footer */
   /********************/
   footer section:nth-of-type(2){
       /*Display*/
@@ -608,7 +620,9 @@
   button: https://www.w3schools.com/css/css3_buttons.asp
   grid voor smaken lijst: https://codepen.io/shooft/pen/gOKzzBM
   image styling: https://www.w3schools.com/css/css3_images.asp
-  
+  iframe: https://www.w3schools.com/html/html_iframe.asp
+  box-shadow-top: https://stackoverflow.com/questions/9792816/apply-drop-shadow-to-border-top-only
+
   to do::
   Animatie 
   Transitions

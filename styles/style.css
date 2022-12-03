@@ -171,7 +171,7 @@ header nav input{
 	border-radius: 6px;
 
 	/*Color*/
-	color: var(--color-background);
+	color: var(--color-text);
 }
 
 header nav button{
@@ -180,7 +180,7 @@ header nav button{
 	margin-top: -50px;
 	margin-left: 17em;
 	padding: 10px 12px;
-	border: 5px solid var(--color-background);
+	border: solid;
 
 	/*Color*/
 	color: var(--color-background);
@@ -237,6 +237,7 @@ main section:nth-of-type(1) a{
 	position: absolute;
 	padding: 17px 32px;
 	bottom: 1rem;
+	
 
 	/*Text*/
 	font-family: Arial, Helvetica, sans-serif;
@@ -250,6 +251,8 @@ main section:nth-of-type(1) a{
 	box-shadow: 0px 2px 1px 0px rgba(117, 117, 117, 0.75);
 }
 
+main section:nth-of-type(1) a:hover::before{
+}
 /**********************/
 /* Section 2 - Iconen */
 /**********************/
@@ -257,7 +260,6 @@ main section:nth-of-type(2){
 	/*Display*/
 	display: flex;
 	flex-direction: column;
-	padding: none;
 	height: 580px;
 
 	/*Text*/
@@ -294,7 +296,6 @@ main section:nth-of-type(2) p{
 
 	/*Text*/
 	text-align: left;
-	line-height: 1,4;
 }
 
 main section:nth-of-type(2) a{
@@ -501,7 +502,7 @@ main section:nth-of-type(6){
 	display: flex;
 	flex-direction: column;
 	padding-top: 3em;
-	padding: none;
+	
 	
 	/*Text*/
 	text-align: left;
@@ -604,7 +605,7 @@ main{
 
 	/*Color*/
 	color: var(--header-links-color);
-	width: 100%;
+	
 
 }
 
@@ -746,7 +747,7 @@ footer section:nth-of-type(1) input{
 	border-radius: 0;
 
 	/*Color*/
-	color: var(--color-background);
+	color: var(--color-text);
 }
 
 
@@ -806,4 +807,19 @@ to do::
 Animatie 
 Transitions
 
+kan ik doen:
+(Prefers-reduced-motion heb ik alleen voor bij de iconen)
+
+
+heb ik:
+1. Custom properties++ (voor meer dan kleur, aanpassen met JS…)
+2. States van controls++ (forms, inputs, links…)
+3. Video/Geluid
+4. Advanced positioning: sticky, fixed, z-index…
+
+Zekerheid vragen:
+1. (Prefers-reduced-motion heb ik alleen voor bij de section 2 iconen lijst)
+2. SVG (icons) stylen en animeren bij de zoek icon
+
+(header button wiggelen)
 
