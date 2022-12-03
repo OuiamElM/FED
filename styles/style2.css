@@ -441,6 +441,7 @@
   
       /*Color*/
       color: var(--header-links-color);
+      overflow: hidden;
   }
   
  
