@@ -119,7 +119,7 @@ header nav section{
 	top: 0;
 	left: 0;
 	right: 0;
-	z-index: 2;
+	z-index: 4;
 	transform: translateY(-100%);
 	padding-bottom: 4em;
 	padding-left: 2em;
@@ -179,11 +179,12 @@ header nav button{
 	width: 18%;
 	margin-top: -50px;
 	margin-left: 17em;
-	padding: 10px 12px;
+	padding: 15px 15px;
 	border: solid;
 
 	/*Color*/
 	color: var(--color-background);
+	box-shadow: 1px 2px 0px rgba(0, 0, 0, 0.50);
 }
 
 header nav button img{
@@ -204,14 +205,60 @@ main section:nth-of-type(1){
 	display:grid;
 	position:relative;
 	place-items:center;
-	
+	overflow: hidden;
+
 	/*Text*/
 	text-align: center;		
 }
 
-main section:nth-of-type(1) img{
+main section:nth-of-type(1) img:nth-of-type(1){
 	/*Display*/
 	width: 100%;
+}
+
+main section:nth-of-type(1) img:nth-of-type(2){
+	width: 25%;
+	position: absolute;
+	margin-top: 32em;
+	margin-left: 16em;
+	z-index: 2;
+	animation-name:jump-jump-animation;
+	animation-duration: 3s;
+	animation-iteration-count:infinite;
+}
+
+@keyframes jump-jump-animation {
+	0% {
+	  transform:translateY(0);
+	}
+
+	50%{
+		transform:translateY(-3rem);
+	}
+	100% {
+	  transform:translateY(0);
+	}
+}
+
+main section:nth-of-type(1) img:nth-of-type(3){
+	width: 70%;
+	position: absolute;
+	margin-left: 45em;
+    margin-top: -33em;
+	
+	animation-name: slide;
+	animation-duration: 10s;
+	animation-iteration-count:infinite;
+}
+
+@keyframes slide {
+	0% {
+	  transform:translateX(0);
+	}
+	
+	100% {
+	  transform:translateX(-50rem);
+	}
 }
 
 main section:first-of-type h2{
@@ -237,7 +284,8 @@ main section:nth-of-type(1) a{
 	position: absolute;
 	padding: 17px 32px;
 	bottom: 1rem;
-	
+	z-index: 3;
+	transform: perspective(1px) rotate(-0.5deg);
 
 	/*Text*/
 	font-family: Arial, Helvetica, sans-serif;
@@ -251,8 +299,9 @@ main section:nth-of-type(1) a{
 	box-shadow: 0px 2px 1px 0px rgba(117, 117, 117, 0.75);
 }
 
-main section:nth-of-type(1) a:hover::before{
-}
+
+
+
 /**********************/
 /* Section 2 - Iconen */
 /**********************/
@@ -503,7 +552,6 @@ main section:nth-of-type(6){
 	flex-direction: column;
 	padding-top: 3em;
 	
-	
 	/*Text*/
 	text-align: left;
 
@@ -558,7 +606,7 @@ main section:nth-of-type(6) img{
 	margin-bottom: 1em;
 	margin-left: 10px;
 	border: 4px solid var(--color-background);
-      box-shadow: 0 2px 2px rgb(0 0 0 / 30%);
+    box-shadow: 0 2px 2px rgb(0 0 0 / 30%);
 }
 
 main section:nth-of-type(6) p{
@@ -605,8 +653,6 @@ main{
 
 	/*Color*/
 	color: var(--header-links-color);
-	
-
 }
 
 main h2{
@@ -673,10 +719,10 @@ footer section:nth-of-type(1) a:nth-of-type(1){
 
 footer section:nth-of-type(1) a img{
 	/*Display*/
-	width: 30%;
-	display:inline-flex;
-	padding-top: 2em;
-	padding-left: 3em;
+	width: 15%;
+    display: inline-flex;
+    margin-top: 2em;
+    margin-left: 52px;
 }
 
 footer section:nth-of-type(1) h2{
@@ -802,24 +848,19 @@ tekst op images: https://codepen.io/shooft/pen/jOKzRoK
 media queries: https://css-tricks.com/a-complete-guide-to-css-media-queries/
 hr: https://www.w3schools.com/howto/howto_css_style_hr.asp
 button: https://www.w3schools.com/css/css3_buttons.asp
+koe foto: https://www.benjerry.com/whats-new/2016/most-interesting-cow
+koe animatie: https://codepen.io/shooft/pen/KKorGPa?editors=1100
+santa img: https://www.vecteezy.com/vector-art/5346727-santa-claus-on-sleigh-with-reindeer-flying-in-the-sky-at-night
 
-to do::
-Animatie 
-Transitions
 
-kan ik doen:
-(Prefers-reduced-motion heb ik alleen voor bij de iconen)
 
 
 heb ik:
-1. Custom properties++ (voor meer dan kleur, aanpassen met JS…)
+1. Animatie van een koe en santa
 2. States van controls++ (forms, inputs, links…)
 3. Video/Geluid
 4. Advanced positioning: sticky, fixed, z-index…
+5. Custom properties++ (voor meer dan kleur, aanpassen met JS…)
 
-Zekerheid vragen:
-1. (Prefers-reduced-motion heb ik alleen voor bij de section 2 iconen lijst)
-2. SVG (icons) stylen en animeren bij de zoek icon
 
-(header button wiggelen)
-
+Custom themes (bijv. Halloween, kerst…)
