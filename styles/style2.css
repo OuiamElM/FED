@@ -37,8 +37,7 @@
       --main-text-color: #000;
       --main-background-color:  #f0f1ee;
       --main-background-color-2: #d4e4ef;
-      
-      
+
       --footer-font-chunk:"Chunk ReThunk", Helvetica, Arial;
       --footer-text-colot: #fff;
       --footer-background: #000;
@@ -383,7 +382,7 @@
     margin-right: 0.625rem;    
     margin-bottom: 0.75rem;
     margin-left: 0.625rem;
-    border: 0.25 solid var(--color-background);
+    border: 0.25rem solid var(--color-background);
     box-shadow: 0 0.125rem 0.125rem rgb(0 0 0 / 30%);
   }
 
