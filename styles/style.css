@@ -215,7 +215,7 @@ main section:nth-of-type(1) img:nth-of-type(1){
 	/*Display*/
 	width: 100%;
 }
-	
+
 
 main section:nth-of-type(1) img:nth-of-type(2){
 	width: 70%;
@@ -589,7 +589,7 @@ main section:nth-of-type(6) img{
 main section:nth-of-type(6) p{
 	/*Display*/
 	display: block;	
-	padding-left: 7.8rem;
+	padding-left: 8.1rem;
 	
 	/*Text*/
 	font-family: var(--a-font);
@@ -697,8 +697,8 @@ footer section:nth-of-type(1) a:first-of-type{
 .koe-animatie{
 	width: 23%;
 	position: absolute;
-	margin-top: 25.85em;
-	margin-right: 2.7em;
+	margin-top: 25.7em;
+	margin-right: 3.3em;
 	transform: rotate(40deg);
 	z-index: 1;
 	animation-name:peekaboo;
@@ -727,8 +727,6 @@ footer section:nth-of-type(1) a img{
 	position: relative;
     margin-top: 6em;
     margin-left: 3.25rem;
-	animation: none;
-	transform: none;
 }
 
 footer section:nth-of-type(1) h2{

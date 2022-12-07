@@ -531,14 +531,15 @@
   footer section:nth-of-type(1) button{
     /*Display*/
     width: 40%;
-	  display: flex;
-	  margin-top: 1em;
-	  margin-left: 7.375rem;
-	  padding: 0.6rem 0.5rem;
-	  justify-content: center;
-	  border: none;
-	  box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 30%);
-
+    display: flex;
+    margin-top: 1em;
+    margin-left: 7.375rem;
+    padding: 0.7rem 0.5rem;
+    justify-content: center;
+    border: none;
+    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 30%);
+    z-index: 3;
+    position: absolute;
   	/*Text*/
 	  font-weight: 500;
 	  font-size: large;
@@ -547,7 +548,34 @@
 	  color: var(--a-text-color);
 	  background-color: var(--color-background);
   }
+
+  .koe-animatie{
+    width: 23%;
+    position: absolute;
+    margin-top: 4.2em;  
+    margin-right: 3.3em;
+    transform: rotate(40deg);
+    z-index: 1;
+    animation-name:peekaboo;
+    animation-duration: 5s;
+    animation-iteration-count:infinite;
+  }
   
+  @keyframes peekaboo{
+    0% {
+      right: 0;
+    }
+    
+    50%{
+      right: 3em;
+    }
+  
+    100% {
+      right:0;
+    
+    }
+  }
+
   footer section:nth-of-type(1) input{
     /*Display*/
     width: 75%;
@@ -565,9 +593,9 @@
   
   footer section:nth-of-type(1) a img{
     /*Display*/
-    width: 15%;
-    display: inline-flex;
-    margin-top: 2em;
+    width: 15%;	
+    position: relative;
+    margin-top: 6em;
     margin-left: 3.25rem;
   }
   
