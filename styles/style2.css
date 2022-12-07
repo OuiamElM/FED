@@ -518,7 +518,6 @@
     display: flex;
 	  margin-right: 2em;
 	  margin-left: 2em;
-	  padding-right: 1em;
 	  padding-left: 2.188rem;
   
     /*Text*/
@@ -536,7 +535,7 @@
 	  display: flex;
 	  margin-top: 1em;
 	  margin-left: 7.375rem;
-	  padding: 0.625rem 0.563rem;
+	  padding: 0.6rem 0.5rem;
 	  justify-content: center;
 	  border: none;
 	  box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 30%);

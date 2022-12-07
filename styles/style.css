@@ -219,7 +219,7 @@ main section:nth-of-type(1) img:nth-of-type(1){
 main section:nth-of-type(1) img:nth-of-type(2){
 	width: 25%;
 	position: absolute;
-	margin-top: 32em;
+	margin-top: 30em;
 	margin-left: 16em;
 	z-index: 2;
 	animation-name:jump-jump-animation;
@@ -244,7 +244,7 @@ main section:nth-of-type(1) img:nth-of-type(3){
 	width: 70%;
 	position: absolute;
 	margin-left: 45em;
-    margin-top: -33em;
+    margin-top: -31em;
 	
 	animation-name: slide;
 	animation-duration: 10s;
@@ -350,7 +350,7 @@ main section:nth-of-type(2) p{
 main section:nth-of-type(2) a{
 	/*Display*/
 	display: block;
-	padding-left: 5em;
+	padding-left: 5.5em;
 
 	/*Text*/
 	font-family: Arial, Helvetica, sans-serif;
@@ -612,7 +612,7 @@ main section:nth-of-type(6) img{
 main section:nth-of-type(6) p{
 	/*Display*/
 	display: block;	
-	padding-left: 8.25rem;
+	padding-left: 7.8rem;
 	
 	/*Text*/
 	font-family: var(--a-font);
@@ -749,7 +749,6 @@ footer section:nth-of-type(1) p{
 	display: flex;
 	margin-right: 2em;
 	margin-left: 2em;
-	padding-right: 1em;
 	padding-left: 2.188rem;
 
 	/*Text*/
@@ -767,7 +766,7 @@ footer section:nth-of-type(1) button{
 	display: flex;
 	margin-top: 1em;
 	margin-left: 7.375rem;
-	padding: 0.625rem 0.563rem;
+	padding: 0.6rem 0.5rem;
 	justify-content: center;
 	border: none;
 	box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 30%);
