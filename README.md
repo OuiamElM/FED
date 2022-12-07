@@ -59,6 +59,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
 
+
   #### Screenreader
   Hier korte omschrijving (met indien nodig afbeeldingen)
 
@@ -112,7 +113,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Website volledig voorzien van HTML. Css nog niet aan begonnen en java ook niet.
+  Hoop zo snel mogelijk aan css te kunnen beginnen. 2e pagina is helemaal niet af.
 
 
   ### Agenda voor meeting
@@ -162,10 +164,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - 
-  -
+  - Ik had een button in een ul  gezet en gevraagd aan de assistent of dat wel mag. Het was beter om de ul in een section te zetten en dan de button in de section.
+  - Voor de rest heb alles netjes er in kunnen verwerken qua html, css en java
 
 </details>
 
@@ -222,12 +222,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+  Ouiam:
+  Isa:
+  Cherlyn:
+  Omar:
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
