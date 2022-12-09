@@ -216,7 +216,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 3e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Html,css en java voor beide pagina's zijn volledig af. Ook heb ik 5 surface elementen kunnen verwerken. 
+ 1 Animatie van een koe en santa
+ 2 States van controls++ (forms, inputs, links…)
+ 3 Video/Geluid
+ 4 Advanced positioning: sticky, fixed, z-index…
+ 5 Custom properties++ (voor meer dan kleur, aanpassen met JS…)
 
 
   ### Agenda voor meeting
@@ -230,10 +235,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - beter span kunnen gebruiken 
+  - voor data beter time tag gebruiken
+  - in articles h3 gebruiken in plaats van h2
+  - 
 
 </details>
 

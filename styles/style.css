@@ -305,7 +305,7 @@ main section:nth-of-type(2) img{
 	padding-left: 0.813rem;
 }
 
-main section:nth-of-type(2) h2{
+main section:nth-of-type(2) h3{
 	/*Display*/
 	padding-top: 1.688rem;
 
@@ -455,12 +455,13 @@ main section:nth-of-type(5){
 	background-size: cover;
 }
 
-main section:nth-of-type(5) hr{
+main section:nth-of-type(5) span{
 	/*Display*/
 	width: 6.563rem;
 	display: flex;
 	margin: auto;
-	margin-top: 3em;	
+	margin-top: 2em;	
+	margin-bottom: 1em;
 	border: 0.25rem solid var(--hr-color);		
 }
 
@@ -578,7 +579,6 @@ main section:nth-of-type(6) img{
 	/*Display*/
 	width: 30%;
 	float: left;
-	margin-top: -1.25rem;
 	margin-right: 0.625rem;
 	margin-bottom: 1em;
 	margin-left: 0.625rem;
@@ -586,10 +586,10 @@ main section:nth-of-type(6) img{
     box-shadow: 0 0.125rem 0.125rem rgb(0 0 0 / 30%);
 }
 
-main section:nth-of-type(6) p{
+main section:nth-of-type(6) time{
 	/*Display*/
 	display: block;	
-	padding-left: 8.1rem;
+	
 	
 	/*Text*/
 	font-family: var(--a-font);
@@ -606,7 +606,6 @@ main section:nth-of-type(6) article a{
 	/*Display*/
 	display: block;	
 	padding-top: 0.625rem;
-	padding-right: 2em;
 	padding-left: 5em;
 	
 	/*Text*/
@@ -633,6 +632,14 @@ main{
 }
 
 main h2{
+	/*Text*/
+	font-family: var(--header-links-font);
+
+	/*Color*/
+	color: #000;
+}
+
+main h3{
 	/*Text*/
 	font-family: var(--header-links-font);
 
@@ -697,7 +704,7 @@ footer section:nth-of-type(1) a:first-of-type{
 .koe-animatie{
 	width: 23%;
 	position: absolute;
-	margin-top: 25.7em;
+	margin-top: 4.25em;
 	margin-right: 3.3em;
 	transform: rotate(40deg);
 	z-index: 1;
@@ -813,7 +820,7 @@ footer section:nth-of-type(2){
 	padding-bottom: 1em;
 
 	/*Color*/
-	background-color: #000;
+	background-color: var(--footer-background);
 }
 
 footer section:nth-of-type(2) a{
@@ -828,7 +835,7 @@ footer section:nth-of-type(2) a{
 	line-height: 3em;
 
 	/*Color*/
-	color: #fff;
+	color: var(--footer-text-colot);
 }
 
 /****************/
@@ -868,4 +875,10 @@ heb ik:
 5. Custom properties++ (voor meer dan kleur, aanpassen met JS…)
 
 
-Custom themes (bijv. Halloween, kerst…)
+verbeter punten op basis van mijn telefoon
+kruisje bij hamburger menu te groot
+zoek button in de menu te veel naar links
+
+wat schaalt niet mee:
+hamburger menu
+social iconen

@@ -3,7 +3,7 @@ console.log("hi");
 
 var menuButton = document.querySelector("header > button");
 var menu = document.querySelector("header nav section");
-var buttonImage = document.querySelector("header > button > img" );
+var buttonImage = document.querySelector("header > button img" );
 
 function menuToggelen(){
     menu.classList.toggle("menuOpen");
@@ -18,3 +18,4 @@ function menuToggelen(){
 
 menuButton.addEventListener('click', menuToggelen)
 
+/*met behulp van die lieve student assistent gemaakt*/
