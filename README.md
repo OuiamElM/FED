@@ -28,8 +28,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
 
-
-
 ## Je website
 
 <details open>
@@ -58,7 +56,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
-
+  
 
   #### Screenreader
   Hier korte omschrijving (met indien nodig afbeeldingen)
@@ -91,19 +89,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 <details>
   <summary>uitwerken na afloop 2e werkgroep</summary>
-
+  
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/pagina.jpg" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="readme-images/section.jpg" width="375px" alt="breakdown van een dynamisch deel">
 
 </details>
-
-
 
 
 
@@ -238,7 +231,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - beter span kunnen gebruiken 
   - voor data beter time tag gebruiken
   - in articles h3 gebruiken in plaats van h2
-  - 
+  
 
 </details>
 
@@ -278,8 +271,30 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-  1. bron 1
-  2. bron 2
-  3. ...
+bronnenlijst voor de homepagina:
+images: https://www.benjerry.nl/ & extract.pics
+colors: https://www.benjerry.nl/
+font: https://eng.m.fontke.com/font/62486515/download/
+button css styling: https://www.w3schools.com/css/css3_buttons.asp
+tekst op images: https://codepen.io/shooft/pen/jOKzRoK
+media queries: https://css-tricks.com/a-complete-guide-to-css-media-queries/
+hr: https://www.w3schools.com/howto/howto_css_style_hr.asp
+button: https://www.w3schools.com/css/css3_buttons.asp
+koe foto: https://www.benjerry.com/whats-new/2016/most-interesting-cow
+koe animatie: https://codepen.io/shooft/pen/KKorGPa?editors=1100
+santa img: https://www.vecteezy.com/vector-art/5346727-santa-claus-on-sleigh-with-reindeer-flying-in-the-sky-at-night
 
+bronnenlijst voor de smakenpagina:
+images: https://www.benjerry.nl/ & extract.pics
+colors: https://www.benjerry.nl/
+font: https://eng.m.fontke.com/font/62486515/download/
+button css styling: https://www.w3schools.com/css/css3_buttons.asp
+tekst op images: https://codepen.io/shooft/pen/jOKzRoK
+media queries: https://css-tricks.com/a-complete-guide-to-css-media-queries/
+hr: https://www.w3schools.com/howto/howto_css_style_hr.asp
+button: https://www.w3schools.com/css/css3_buttons.asp
+grid voor smaken lijst: https://codepen.io/shooft/pen/gOKzzBM
+image styling: https://www.w3schools.com/css/css3_images.asp
+iframe: https://www.w3schools.com/html/html_iframe.asp
+box-shadow-top: https://stackoverflow.com/questions/9792816/apply-drop-shadow-to-border-top-only
 </details>
