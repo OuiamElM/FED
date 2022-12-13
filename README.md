@@ -38,12 +38,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   https://www.benjerry.nl/
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  Homepage 
-  <img src="./readme-images/homepage.jpeg" width="375px" alt="omschrijving van de pagina">
+  Home pagina
+  <img src="./readme-images/homepage.png" width="386px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  Smaken page  
-  <img src="./readme-images/flavourpage.jpeg" width="375px" alt="omschrijving van de pagina">
+  Smaken pagina  
+  <img src="./readme-images/flavourpage.png" width="386px" alt="omschrijving van de pagina">
  
 </details>
 
@@ -56,6 +56,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+  - Door de site heen browsen doormiddel van de touch-pad gaat lastig
+  - 
   
 
   #### Screenreader
@@ -78,7 +80,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
   Hier korte omschrijving (met indien nodig afbeeldingen)
-
+  
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
 </details>
@@ -283,6 +285,7 @@ button: https://www.w3schools.com/css/css3_buttons.asp
 koe foto: https://www.benjerry.com/whats-new/2016/most-interesting-cow
 koe animatie: https://codepen.io/shooft/pen/KKorGPa?editors=1100
 santa img: https://www.vecteezy.com/vector-art/5346727-santa-claus-on-sleigh-with-reindeer-flying-in-the-sky-at-night
+skip link:
 
 bronnenlijst voor de smakenpagina:
 images: https://www.benjerry.nl/ & extract.pics

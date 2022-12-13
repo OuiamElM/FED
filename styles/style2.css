@@ -91,6 +91,33 @@
     border-right: 0.188rem solid var(--color-background);
   }
   
+  .skip-to-main-content-link {
+    /*Display*/
+    display: flex;
+    z-index: 2;
+    transform: translateY(-300%) translateX(-50%);
+    height: 30px;
+    left: 50%;
+    padding: 7px;
+    position: absolute;
+    transition: transform 0.3s;
+  
+    /*Color*/
+    color: var(--header-links-color);
+    /*Text*/
+    background: var(--header-background);
+    font-family: var(--header-links-font);
+    font-size: small;
+    text-decoration: none;
+    }
+  
+  .skip-to-main-content-link:focus {
+    /*Display*/
+    left: 50%;
+    transform: translateY(50%) translateX(-50%);
+    opacity: 1;
+    }
+    
   header > button{
     /*Display*/
     display: block;
