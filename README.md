@@ -57,31 +57,27 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
   - Door de site heen browsen doormiddel van de touch-pad gaat lastig
-  - 
+  - Het is niet mogelijk om de navigatie te skippen met tab en screenreader
   
 
   #### Screenreader
   Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Door de site heen browsen met de screenreader is mogelijk, alleen is het niet mogelijk om de navigatie en hamburger menu te skippen om meteen naar de content te gaan. Dat kan verbeterd worden. Door middel van een skip to content knop die je meteen naar de content lijdt in plaats van de hamburger menu.
 
 
   #### Muis en Toetsenbord 
   Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  De site gebruiker door middel van de muis en toetsenbord gaat goed. Daar zijn geen aspecten die verbeterd hoeven te worden.
 
 
   #### Motoriek (shocks, elastiekjes)
   Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  De site gebruiken met een shock apparaat om is wel lastiger. Vooral door de site browsen met het touchpad en tegelijkertijd een shock apparaat je om hebben is mijn niet mogelijk. Dus hier zou dan gebruik gemaakt kunnen worden van tab in plaats van het touchpad.
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
   Hier korte omschrijving (met indien nodig afbeeldingen)
-  
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  De kleurcontrasten in de huidige pagina zijn wel goed. Mensen met een visuele beperking kunnen de zwart op wit content goed zien. En bijvoorbeeld gele elementen in de content weer minder goed.
 
 </details>
 
@@ -129,15 +125,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   - Structuur van html controleren. Goed
   - Structuur van CSS controleren. Goed
-  - h2 position; absolute het beste niet gebruiken zodat afbeeldingen niet in elkaar schuiven. Gewijzigd en goed
+  - h2 position; absolute het beste niet gebruiken zodat afbeeldingen niet in elkaar schuiven.    
   - In een section niet nog een section gebruiken maar een articel, is beter.
-
-
 </details>
-
-
-
-
 
 ## Voortgang 2 (week 3)
 
@@ -148,7 +138,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
  Html en css van homepage volledig af. Inclusief hamburger menu. Moet nog animaties in verwerken.
  Smaken pagina ga ik vandaag proberen te maken
 
-
   ### Agenda voor meeting
   samen met je groepje opstellen
 
@@ -156,7 +145,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Isa:
   Cherlyn:
   Omar:
-
 
   ### Verslag van meeting
   - Ik had een button in een ul  gezet en gevraagd aan de assistent of dat wel mag. Het was beter om de ul in een section te zetten en dan de button in de section.
@@ -175,29 +163,27 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  Bevindingen van de verbeterde Ben en Jerry site zijn dat je al gebruiker nu gemakkelijker tab kan gerbuiken voor als je door de site heen browst. 
+
 
   #### Screenreader
   Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  De screenreader gebruiken tijdens het browsen door de site is gemakkelijk en goed. Ook heeft elke img alt tekst dat meer informatie geeft aan de gebruiker over de desbetreffende afbeeling.
 
 
   #### Muis en Toetsenbord 
   Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  De muis en toetsenbord gebruiker om door de site heen te browsen gaat soepel en goed. Tab gaat langs alle link attributen.
 
 
   #### Motoriek (shocks, elastiekjes)
   Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Met het toetsenbord werken om door de site heen te browsen terwijl er een motoriek mankement is, gaat goed en gemakkelijk.
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
   Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  De site heeft dezelfde kleurcontrasten als de originele Ben en Jerry site. Dus veel content is goed leesbaar voor slechtziende.
 
 </details>
 
@@ -233,8 +219,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - beter span kunnen gebruiken 
   - voor data beter time tag gebruiken
   - in articles h3 gebruiken in plaats van h2
-  
-
 </details>
 
 
@@ -285,7 +269,8 @@ button: https://www.w3schools.com/css/css3_buttons.asp
 koe foto: https://www.benjerry.com/whats-new/2016/most-interesting-cow
 koe animatie: https://codepen.io/shooft/pen/KKorGPa?editors=1100
 santa img: https://www.vecteezy.com/vector-art/5346727-santa-claus-on-sleigh-with-reindeer-flying-in-the-sky-at-night
-skip link:
+skip link: https://www.freecodecamp.org/news/how-to-add-skip-to-main-content-links-to-a-website/
+
 
 bronnenlijst voor de smakenpagina:
 images: https://www.benjerry.nl/ & extract.pics
